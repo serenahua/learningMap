@@ -6,7 +6,7 @@ body {
   padding: 0;
   line-height: 2em;
   overflow-x: hidden;
-  background-color: rgb(156, 133, 133);
+  background-color: rgb(212, 190, 156);
 }
 .site-wrap {
   position: relative;
@@ -42,11 +42,19 @@ body {
   font-size: 1.2rem;
   font-weight: bold;
 }
-.banner li {
-  font-weight: bold;
+.banner table {
+  border: 1px solid #000;
+  width: 100%;
 }
-.banner li .item {
-  background-color:rgb(173, 94, 94)
+.banner table .sub-title {
+  background-color: rgb(197, 147, 107);
+  color: #231815;
+}
+.banner table .sub-title td{
+  font-weight: 200;
+}
+.banner table td {
+  padding: 2px 5px;
 }
 .content {
   border-top: 5px solid #000;
